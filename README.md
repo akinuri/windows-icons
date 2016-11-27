@@ -1,6 +1,8 @@
 # Windows Icons
 
-A list of Windows 8 system32 files that contains icons.
+A list of Windows 8 system32 files that contain icons.
+
+
 
 **Sorted by Name in ascending order.**
 
