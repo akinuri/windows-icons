@@ -2,7 +2,7 @@
 
 A list of Windows 8 system32 files that contains icons.
 
-# Sorted by Name in ascending order.
+Sorted by Name in ascending order.
 
 | Name | Icons | Size (KB) | Description |
 | ---- | ---- | ---- | ---- |
