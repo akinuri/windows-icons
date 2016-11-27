@@ -5,6 +5,7 @@ A list of Windows 8 system32 files that contains icons.
 # Sorted by Name in ascending order.
 
 | Name | Icons | Size (KB) | Description |
+| ---- | ---- | ---- | ---- |
 | accessibilitycpl.dll | 24 | 3723 | Ease of Access Control Panel |
 | aclui.dll | 7 | 992 | Security Descriptor Editor |
 | ActionCenter.dll | 9 | 856 | Action Center |
