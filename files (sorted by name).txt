@@ -48,7 +48,6 @@ mmsys.cpl                     9       785     Audio Control Panel
 modemui.dll                   5       294     Modem Properties
 moricons.dll                113       181     NT Setup Icon Resources
 msctf.dll                    27      1257     MSCTF Server
-msftedit.dll                 22      2829     Rich Text Edit Control
 mshtml.dll                   27     22670     HTML Viewer
 msieftp.dll                   6       300     IE FTP Folder Shell Extension
 msihnd.dll                   28       348     Windows Installer
