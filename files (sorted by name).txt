@@ -1,4 +1,4 @@
-Name                      Icons      Size     Description
+Name                      Icons   Size (KB)   Description
 -----------------------------------------------------------------------------------------------------------
 accessibilitycpl.dll         24      3723     Ease of Access Control Panel
 aclui.dll                     7       992     Security Descriptor Editor
