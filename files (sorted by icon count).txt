@@ -26,7 +26,6 @@ WlanMM.dll                   26       974     Dot11 Media and Adhoc Managers
 msutb.dll                    25       446     MSUTB Server
 accessibilitycpl.dll         24      3723     Ease of Access Control Panel
 explorer.exe                 24      2274     Explorer
-msftedit.dll                 22      2829     Rich Text Edit Control
 rasdlg.dll                   22       851     Remote Access Common Dialog API
 SensorsCpl.dll               22       208     Open Location and Other Sensors
 wiashext.dll                 22       451     Imaging Devices Shell Folder UI
