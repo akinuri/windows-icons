@@ -1,4 +1,4 @@
-Name                      Icons      Size     Description
+Name                      Icons   Size (KB)   Description
 -----------------------------------------------------------------------------------------------------------
 imageres.dll                399     47703     Image Resource
 shell32.dll                 322     20699     Shell Common DLL
