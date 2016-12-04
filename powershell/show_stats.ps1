@@ -1,4 +1,6 @@
-﻿#clear console
+﻿$host.ui.RawUI.WindowTitle = "Analyzing Icons"
+
+#clear console
 cls
 
 Write-Host ""
@@ -41,7 +43,7 @@ Get-ChildItem $icon_files_dir -Directory | ForEach-Object {
 
 
 # sort table by icon count
-#$table = $table | Sort-Object @{Expression={$_[1]}; Ascending=$false}, @{Expression={$_[0]}; Ascending=$true}
+$table = @($table | Sort-Object @{Expression={$_[1]}; Ascending=$false}, @{Expression={$_[0]}; Ascending=$true})
 
 # calculate the columns widths for pretty print
 $table_col_widths     = 0,0,0,0
