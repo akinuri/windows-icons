@@ -46,7 +46,7 @@ Get-ChildItem $icon_files_dir -Directory | ForEach-Object {
 $table = @($table | Sort-Object @{Expression={$_[1]}; Ascending=$false}, @{Expression={$_[0]}; Ascending=$true})
 
 # calculate the columns widths for pretty print
-$table_col_widths     = 0,0,0,0
+$table_col_widths     = 0,0,0,0,0
 $table | ForEach-Object {
     $cells            = $_
     $name_str_length  = $cells[0].Length
@@ -76,8 +76,8 @@ for ($i = 0; $i -lt $table_col_spacing; $i++) {
 }
 
 # calculate the headers' offsets
-$table_headers        = "Name","Icons","Size","Description"
-$table_header_offsets = 0,0,0,0
+$table_headers        = "#","Name","Icons","Size","Description"
+$table_header_offsets = 0,0,0,0,0
 for ($i = 0; $i -lt $table_headers.Count; $i++) {
     $header_length = $table_headers[$i].Length
     $col_width     = $table_col_widths[$i]
