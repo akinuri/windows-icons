@@ -76,8 +76,8 @@ for ($i = 0; $i -lt $table_col_spacing; $i++) {
 }
 
 # calculate the headers' offsets
-$table_headers        = "#","Name","Icons","Size","Description"
-$table_header_offsets = 0,0,0,0,0
+$table_headers        = "Name","Icons","Size","Description"
+$table_header_offsets = 0,0,0,0
 for ($i = 0; $i -lt $table_headers.Count; $i++) {
     $header_length = $table_headers[$i].Length
     $col_width     = $table_col_widths[$i]
